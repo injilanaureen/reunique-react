@@ -1,12 +1,9 @@
 import React from 'react';
-<<<<<<< HEAD
 import { Link } from "react-router-dom";
 import Grievance from './legal-component/grievance';
 
 
-=======
-import { Link } from 'react-router-dom';
->>>>>>> 59a66f346733ac3bc57d82ff00b8de122aa150b1
+
 const Footer = () => {
   return (
     <footer className="bg-bg-color text-text-color">
@@ -38,7 +35,6 @@ const Footer = () => {
             </ul>
           </div>
 
-<<<<<<< HEAD
           {/* Company Section  */}
           <div className="space-y-6">
 
@@ -47,13 +43,13 @@ const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li ><Link to="/about" className="hover:text-primary-color transition-all">About Us</Link></li>
               <li>
-            <Link to="/contact"className="hover:text-primary-color transition-all">
+            <Link to="/contact" className="hover:text-primary-color transition-all">
               Contact Us
             </Link>
           </li>
-              <li className="hover:text-primary-color transition-all">Careers</li>
-              <li className="hover:text-primary-color transition-all">Media and Press</li>
-              <li className="hover:text-primary-color transition-all">Pricing</li>
+              <li><Link to="/careers"  className="hover:text-primary-color transition-all" >Careers</Link></li>
+              <li>Media and Press</li>
+              <li>Pricing</li>
             </ul>
           </div>
           <div className="space-y-4">
@@ -75,36 +71,7 @@ const Footer = () => {
             </ul>
           </div>
 </div>
-=======
-          {/* Company Section */}
-          <div className="space-y-8">
 
-  <div className="space-y-4">
-    <h3 className="text-lg font-semibold text-primary-color">Company</h3>
-    <ul className="space-y-2 text-sm">
-      <li className="hover:text-primary-color transition-all">About Us</li>
-      <li className="hover:text-primary-color transition-all">Contact Us</li>
-      <li className="hover:text-primary-color transition-all">
-        <Link to="/careers">Careers</Link>
-      </li>
-      <li className="hover:text-primary-color transition-all">Media and Press</li>
-      <li className="hover:text-primary-color transition-all">Pricing</li>
-    </ul>
-  </div>
-
-  <div className="space-y-4">
-    <h3 className="text-lg font-semibold text-primary-color">Legal</h3>
-    <ul className="space-y-2 text-sm">
-      <li className="hover:text-primary-color transition-all">Disclaimer</li>
-      <li className="hover:text-primary-color transition-all">Privacy Policy</li>
-      <li className="hover:text-primary-color transition-all">Grievance Redressal</li>
-      <li className="hover:text-primary-color transition-all">Terms & Conditions</li>
-     
-    </ul>
-  </div>
-</div>
-
->>>>>>> 59a66f346733ac3bc57d82ff00b8de122aa150b1
           {/* Support & Social Section */}
           <div className="space-y-6">
             <div>
