@@ -1,0 +1,15 @@
+[
+    {
+      "title": "What is a Payment Gateway?",
+      "description": "A payment gateway is a solution that allows businesses to process online payments securely. It is a vital bridge connecting customers, merchants, and financial institutions."
+    },
+    {
+      "title": "How does a Payment Gateway work?",
+      "description": "Payment gateways facilitate worldwide online transactions. After order confirmation, SSL encrypts payment details, which pass through the merchant’s website to the chosen gateway and then to the merchant’s bank."
+    },
+    {
+      "title": "Why is Payment Gateway integration important?",
+      "description": "E-commerce can only function with payment gateway integration. It enhances transaction efficiency and strengthens online security, establishing a foundation for trust and reliability in the digital market."
+    }
+  ]
+  

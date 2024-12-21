@@ -1,0 +1,27 @@
+[
+    {
+      "image": "./assets/ecommerce.png",
+      "title": "E-Commerce",
+      "description": "With PeUnique Payment Gateway for online marketplaces, experience faster, secured & smoother transactions with an easy-to-manage dashboard.",
+      "altText": "E-commerce gateway"
+    },
+    {
+      "image": "./assets/edu.png",
+      "title": "Education Sector",
+      "description": "Our Payment Gateway is built for large transactions in educational institutions like Schools, Colleges, and Universities, ensuring secure fee collections and statement reconciliation.",
+      "altText": "Education gateway"
+    },
+    {
+      "image": "./assets/app.png",
+      "title": "App",
+      "description": "Our solution provides a smoother, more secure checkout for your app, enhancing user experience and supporting a wide range of payment methods.",
+      "altText": "App gateway"
+    },
+    {
+      "image": "./assets/retail.png",
+      "title": "Retail",
+      "description": "Our Payment Gateway supports various payment methods for retail businesses, ensuring smooth transactions for your customers.",
+      "altText": "Retail gateway"
+    }
+  ]
+  

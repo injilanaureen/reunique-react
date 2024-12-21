@@ -14,9 +14,12 @@ import Terms from "../components/legal-component/t&c";
 import FAQs from "../components/faqs"
 import RaiseTicket from "../components/RaiseTicket";
 import Careers from "../components/careers";
+import Home from "../components/home";
+
 const AppRouter = () => {
   return (
     <Routes>
+      <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<AboutUs />} />
       <Route path="/contact" element={<Contact />} />
       <Route path="/support" element={<Support />} />

@@ -1,0 +1,21 @@
+[
+    {
+      "image": "../images/link.png",
+      "title": "Payment Links",
+      "description": "Payment Link is a link-based payment solution that lets businesses collect payments through various payment methods.",
+      "link": "#"
+    },
+    {
+      "image": "./assets/b2b.png",
+      "title": "B2B Services",
+      "description": "We provide India's largest multi recharge platform. We work with domestic money transfer, international money transfer services, prepaid & Dth recharge, postpaid payments.",
+      "link": "#"
+    },
+    {
+      "image": "./assets/wallet.png",
+      "title": "Wallets",
+      "description": "PeUnique Wallet is a secure and convenient way to manage your payments, recharges, and transfers. We support multiple payment methods.",
+      "link": "#"
+    }
+]
+  
