@@ -1,4 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom";
+import Grievance from './legal-component/grievance';
+
 
 const Footer = () => {
   return (
@@ -6,7 +9,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-12 sm:px-8 lg:px-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* About Section */}
-          <div className="space-y-8">
+          <div className="space-y-4">
             <h2 className="text-2xl font-bold text-primary-color">PeUnique</h2>
             <p className="text-sm leading-relaxed ">
               PeUnique is an RBI Authorised Payment Aggregator. PeUnique Payment Gateway seamlessly integrates payment
@@ -31,18 +34,42 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Company Section */}
+          {/* Company Section  */}
+          <div className="space-y-6">
+
           <div className="space-y-4">
             <h3 className="text-lg font-semibold text-primary-color">Company</h3>
             <ul className="space-y-2 text-sm">
-              <li className="hover:text-primary-color transition-all">About Us</li>
-              <li className="hover:text-primary-color transition-all">Contact Us</li>
+              <li ><Link to="/about" className="hover:text-primary-color transition-all">About Us</Link></li>
+              <li>
+            <Link to="/contact"className="hover:text-primary-color transition-all">
+              Contact Us
+            </Link>
+          </li>
               <li className="hover:text-primary-color transition-all">Careers</li>
               <li className="hover:text-primary-color transition-all">Media and Press</li>
               <li className="hover:text-primary-color transition-all">Pricing</li>
             </ul>
           </div>
-
+          <div className="space-y-4">
+            <h3 className="text-lg font-semibold text-primary-color">Legal</h3>
+            <ul className="space-y-2 text-sm">
+              <li ><Link to="/disclaimer" className="hover:text-primary-color transition-all">Disclaimer</Link></li>
+              <li><Link to="/privacy"className="hover:text-primary-color transition-all">Privacy Policy</Link></li>
+              <li>
+            <Link to="/grievance" className="hover:text-primary-color transition-all">
+            Grievance Redressal
+            </Link>
+          </li>
+              <li>
+            <Link to="/terms"className="hover:text-primary-color transition-all">
+            Terms & Conditions
+            </Link>
+          </li>
+             
+            </ul>
+          </div>
+</div>
           {/* Support & Social Section */}
           <div className="space-y-6">
             <div>
