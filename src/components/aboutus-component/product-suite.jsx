@@ -1,10 +1,34 @@
-import React from 'react';
-import payment1 from '../../images/online-payment-svgrepo-com.svg';
-import payment2 from '../../images/payment-method-svgrepo-com (2).svg';
-import payment3 from '../../images/secure-payment-protection-svgrepo-com.svg';
-import payment4 from '../../images/secure-payment-visa-svgrepo-com.svg';
+import React from "react";
+import payment1 from "../../images/online-payment-svgrepo-com.svg";
+import payment2 from "../../images/payment-method-svgrepo-com (2).svg";
+import payment3 from "../../images/secure-payment-protection-svgrepo-com.svg";
+import payment4 from "../../images/secure-payment-visa-svgrepo-com.svg";
 
-
+const ProductSuiteCard = ({ heading, para, image }) => {
+  return (
+    <>
+      <img
+        src={image}
+        alt={heading}
+        className="h-24 w-24 rounded-full mb-4 object-cover"
+      />
+      <h4 className="text-lg font-bold mb-2">{heading}</h4>
+      <p className="text-sm text-gray-600 mb-4">{para}</p>
+      <a href="/" className="text-blue-500 hover:underline inline-flex gap-1">
+        Learn More{" "}
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          style={{ fill: "rgba(205,255,255)" }}
+        >
+          <path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 15v-4H7v-2h5V7l5 5-5 5z"></path>
+        </svg>
+      </a>
+    </>
+  );
+}
 const ProductSuites = () => {
   const productSuites = [
     {
@@ -47,11 +71,11 @@ const ProductSuites = () => {
       <h3 className="text-center text-xl md:text-xl lg:text-2xl font-bold tracking-widest mb-12 text-gray-400">
         Payment solutions for all your business needs
       </h3>
-      <div className="flex flex-wrap justify-center gap-8">
+      <div className="grid grid-cols-1 gap-4 px-4 sm:grid-cols-2 sm:gap-6 sm:px-20 xl:grid-cols-3">
         {productSuites.map((product, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-start text-center bg-white border rounded-lg p-6 shadow-lg w-1/4"
+            className="flex flex-col items-center justify-start text-center bg-white border rounded-lg p-4 sm:p-6 shadow-lg"
           >
             <ProductSuiteCard
               image={product.image}
@@ -62,23 +86,6 @@ const ProductSuites = () => {
         ))}
       </div>
     </div>
-  );
-};
-
-const ProductSuiteCard = ({ heading, para, image }) => {
-  return (
-    <>
-      <img
-        src={image}
-        alt={heading}
-        className="h-24 w-24 rounded-full mb-4 object-cover"
-      />
-      <h4 className="text-lg font-bold mb-2">{heading}</h4>
-      <p className="text-sm text-gray-600 mb-4">{para}</p>
-      <a href="/" className="text-blue-500 hover:underline inline-flex gap-1">
-        Learn More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style={{fill: 'rgba(205,255,255)'}}><path d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 15v-4H7v-2h5V7l5 5-5 5z"></path></svg>
-      </a>
-    </>
   );
 };
 

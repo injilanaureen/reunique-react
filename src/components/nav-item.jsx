@@ -1,51 +1,49 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 
-
-const NavBar = ({ setIsMenuOpen,isMenuOpen}) => {
-    return (
-        <nav
-        className={`${
-          isMenuOpen ? "block" : "hidden"
-        } absolute top-full left-0 w-full bg-primary-color md:flex md:static md:w-auto md:gap-32 rounded-2xl px-8`}
+const Navbar = ({ isMenuOpen, toggleMenu }) => {
+  return (
+    <nav
+      className={`${
+        isMenuOpen ? "block" : "hidden"
+      } w-full bg-primary-color lg:flex lg:gap-16 rounded-2xl px-16 py-4 lg:w-auto`}
+    >
+      <Link
+        to="/"
+        className="block sm:text-lg md:text-xl lg:inline-block p-4 lg:p-0 hover:text-secondary-color"
+        onClick={toggleMenu}
       >
-        <Link
-          to="/"
-          className="block md:inline-block text-xl p-4 hover:text-secondary-color"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Home
-        </Link>
-        <Link
-          to="/about"
-          className="block md:inline-block text-xl p-4 hover:text-secondary-color"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          About
-        </Link>
-        <Link
-          to="/about"
-          className="block md:inline-block text-xl p-4 hover:text-secondary-color"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Pricing
-        </Link>
-        <Link
-          to="/contact"
-          className="block md:inline-block text-xl p-4 hover:text-secondary-color"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Contact
-        </Link>
-        <Link
-          to="/support"
-          className="block md:inline-block text-xl p-4 hover:text-secondary-color"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Support
-        </Link>
-      </nav>
-    );
+        Home
+      </Link>
+      <Link
+        to="/about"
+        className="block sm:text-lg md:text-xl lg:inline-block p-4 lg:p-0 hover:text-secondary-color"
+        onClick={toggleMenu}
+      >
+        About
+      </Link>
+      <Link
+        to="/pricing"
+        className="block sm:text-lg md:text-xl lg:inline-block p-4 lg:p-0 hover:text-secondary-color"
+        onClick={toggleMenu}
+      >
+        Pricing
+      </Link>
+      <Link
+        to="/contact"
+        className="block sm:text-lg md:text-xl lg:inline-block p-4 lg:p-0 hover:text-secondary-color"
+        onClick={toggleMenu}
+      >
+        Contact
+      </Link>
+      <Link
+        to="/support"
+        className="block sm:text-lg md:text-xl lg:inline-block p-4 lg:p-0 hover:text-secondary-color"
+        onClick={toggleMenu}
+      >
+        Support
+      </Link>
+    </nav>
+  );
 };
 
-export default NavBar;
+export default Navbar;
