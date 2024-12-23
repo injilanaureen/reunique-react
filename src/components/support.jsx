@@ -2,11 +2,15 @@ import React from "react";
  
 const SupportSection = () => { 
   return ( 
-<section className="py-16 pt-32 bg-gray-50 bg-gradient-to-br from-primary-color via-secondary-color to-tertiary-color rounded-lg shadow-xl"> {/* Adjusted padding-top */}
+    <>
+    <div className="flex items-center h-96 font-bold p-6 pt-32 bg-gradient-to-br from-primary-color to-secondary-color">
+        <h1 className="text-6xl text-slate-100">Support</h1>
+      </div>
+<section className="py-16 rounded-lg shadow-xl"> {/* Adjusted padding-top */}
   {/* Section Header */}
   <div className="text-center mb-12">
     <h1 className="text-6xl font-semibold text-secondary-color pb-10">SUPPORT</h1>
-    <h2 className="text-3xl font-bold text-primary-color">How can we assist you?</h2>
+    <h2 className="text-4xl font-bold text-primary-color">How can we assist you?</h2>
   </div>
 
   {/* Support Cards Container */}
@@ -45,7 +49,7 @@ const SupportSection = () => {
     <div className="p-8 bg-white border border-gray-200 rounded-xl shadow-lg hover:bg-secondary-color hover:text-white transition-all transform hover:scale-105 hover:shadow-2xl">
       <h4 className="text-2xl font-semibold mb-4">Nodal Officer - Grievance</h4>
       <p className="text-base text-gray-700">
-        Email: <strong>info@peunique.com</strong>
+        Email: <strong>care@peunique.com</strong>
       </p>
     </div>
 
@@ -53,16 +57,16 @@ const SupportSection = () => {
     <div className="p-8 bg-white border border-gray-200 rounded-xl shadow-lg hover:bg-secondary-color hover:text-white transition-all transform hover:scale-105 hover:shadow-2xl">
       <h4 className="text-2xl font-semibold mb-4">Nodal Officer - LEA Support</h4>
       <p className="text-base text-gray-700">
-        Contact: <strong>info@unique.com</strong>
+        Contact: <strong>care@peunique.com</strong>
       </p>
       <p className="text-base text-gray-700">
-        Disputes: <strong>info@unique.com</strong>
+        Disputes: <strong>care@peunique.com</strong>
       </p>
     </div>
   </div>
 </section>
 
-
+</>
 
   ); 
 }; 

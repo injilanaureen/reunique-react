@@ -29,7 +29,11 @@ class ContactForm extends Component {
 
   render() {
     return (
-      <div className="flex flex-col md:flex-row justify-between p-6 pt-32 space-y-8 md:space-y-0 md:space-x-8  bg-gradient-to-br from-primary-color via-secondary-color to-tertiary-color rounded-lg shadow-xl">
+      <>
+      <div className="flex items-center h-96 font-bold p-6 pt-32 bg-gradient-to-br from-primary-color to-secondary-color">
+        <h1 className="text-6xl text-slate-100">Contact Us</h1>
+      </div>
+        <div className="flex flex-col md:flex-row justify-between p-6  space-y-8 md:space-y-0 md:space-x-8  "> 
       {/* Form Section */}
       <div
         className="w-full md:w-1/2 bg-white shadow-lg p-6 rounded-lg border border-gray-200 relative transition-transform transform "
@@ -193,6 +197,7 @@ class ContactForm extends Component {
      
 
     </div>
+      </>
     
     
     

@@ -12,7 +12,10 @@ const AboutUsHeading = () => {
 
   return (
     <>
-      <div className="pt-24 bg-gradient-to-br from-primary-color to-secondary-color border border-gray-500 rounded-none overflow-hidden">
+    <div className="flex items-center h-96 font-bold p-6 pt-32 bg-gradient-to-br from-primary-color to-secondary-color">
+        <h1 className="text-6xl text-slate-100 pr-10">About Us</h1>
+      </div>
+      <div className=" border border-gray-500 rounded-none overflow-hidden">
         {/* Background Image */}
         <div className="w-full relative">
           <img
@@ -31,13 +34,13 @@ const AboutUsHeading = () => {
           /> */}
 
         {/* Content Section */}
-        <div className="about-herosection flex flex-col items-start gap-5 justify-center max-w-screen-xl mx-auto text-lg leading-relaxed pt-8">
-          <h1 className="about-heading tracking-widest text-6xl pb-4 text-secondary-color font-bold">
+        <div className="about-herosection bg-slate-100 flex flex-col items-start gap-5 justify-center max-w-screen-xl mx-auto text-lg leading-relaxed pt-8 px-10">
+          <h1 className="about-heading tracking-widest text-3xl pb-4 text-secondary-color font-bold">
             About us
           </h1>
 
           <p className="leading-loose z-0 text-2xl text-black">
-            PeUnique, a platform by NikatBy, emerges as a pioneering force in India's payment and API banking landscape.
+            PeUnique, emerges as a pioneering force in India's payment and API banking landscape.
             Our comprehensive suite of solutions empowers businesses across the nation to seamlessly accept payments and
             facilitate payouts through an extensive network of over 180 payment modes, all streamlined through a simple
             integration process.

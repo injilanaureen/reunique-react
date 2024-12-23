@@ -64,11 +64,11 @@ const ProductSuites = () => {
   ];
 
   return (
-    <div className="relative overflow-hidden min-h-[100vh] pt-10 pb-6 bg-slate-100 border-y-2 border-bg-color">
+    <div className="relative overflow-hidden min-h-[100vh] pt-10 pb-6 border-y-2 border-bg-color">
       <h1 className="text-center text-2xl md:text-5xl lg:text-6xl pt-12 font-extrabold tracking-wide mb-6 text-secondary-color">
         Product-Suite
       </h1>
-      <h3 className="text-center text-xl md:text-xl lg:text-2xl font-bold tracking-widest mb-12 text-gray-400">
+      <h3 className="text-center text-xl md:text-xl lg:text-2xl font-bold tracking-widest mb-12npm install swiper">
         Payment solutions for all your business needs
       </h3>
       <div className="grid grid-cols-1 gap-4 px-4 sm:grid-cols-2 sm:gap-6 sm:px-20 xl:grid-cols-3">

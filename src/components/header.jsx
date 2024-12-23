@@ -1,13 +1,17 @@
+import { useState } from 'react';
 import Navbar from './nav-item'; // Import the Navbar component
-
-const Header = ({ isMenuOpen, toggleMenu }) => {
+import logo_img from '../images/icon.png'; // Import the logo
+const Header = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+ 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
   return (
     <header className="fixed top-0 left-0 w-full z-30 bg-white shadow-lg p-4 sm:p-6 md:p-8">
       <div className="flex justify-between items-center">
         {/* Logo */}
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold">
-          Pe<span className="text-primary-color">Unique</span>
-        </h1>
+          <img src={logo_img} className='w-[120px] md:w-[200px]'/>
 
         {/* Hamburger Menu Button (Visible on small screens) */}
         <button

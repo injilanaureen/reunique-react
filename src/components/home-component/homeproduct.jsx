@@ -19,7 +19,7 @@ const ProductSection = () => {
         <h1 className="text-4xl">Product Suite</h1>
         <p className="text-2xl mt-4">Payment solutions for all your business needs!</p>
       </div>
-      <div className="product grid grid-cols-1 align-middle justify-center items-center justify-items-center sm:grid-cols-2 lg:grid-cols-3 mt-16 px-24">
+      <div className="product grid grid-cols-1 gap-10 align-middle justify-center items-center justify-items-center sm:grid-cols-2 lg:grid-cols-3 mt-16 px-16">
         {productData.map((product, index) => (
           <ProductCard
             key={index}

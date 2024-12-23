@@ -3,10 +3,10 @@ import { Link } from 'react-router-dom';
 const Navbar = ({ isMenuOpen, toggleMenu }) => {
   return (
     <nav
-      className={`${
-        isMenuOpen ? "block" : "hidden"
-      } w-full bg-primary-color lg:flex lg:gap-16 rounded-2xl px-16 py-4 lg:w-auto`}
-    >
+          className={`${
+            isMenuOpen ? "block" : "hidden"
+          } absolute top-full left-0 w-full bg-primary-color md:flex md:static md:w-auto md:gap-8 md:px-16 md:py-4 rounded-2xl`}
+        >
       <Link
         to="/"
         className="block sm:text-lg md:text-xl lg:inline-block p-4 lg:p-0 hover:text-secondary-color"
@@ -22,7 +22,7 @@ const Navbar = ({ isMenuOpen, toggleMenu }) => {
         About
       </Link>
       <Link
-        to="/pricing"
+        to="#"
         className="block sm:text-lg md:text-xl lg:inline-block p-4 lg:p-0 hover:text-secondary-color"
         onClick={toggleMenu}
       >

@@ -1,10 +1,4 @@
 import React from 'react';
-
-
-
-
-
-
 const Partners = ({ photo, size }) => {
   // Default size for small images
   const imageSize = size === "small" ? "h-28 w-36" : "h-36 w-48"; // Small or default size
