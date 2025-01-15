@@ -6,6 +6,7 @@
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "animate.css": "^4.1.1",
+    "aos": "^2.3.4",
     "cra-template": "1.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",

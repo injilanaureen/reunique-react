@@ -18,6 +18,7 @@ const GatewaySection = () => {
       <GatewayItem
         image={item.image}
         title={item.title}
+        title2={item.title2}
         description={item.description}
         altText={item.altText}
       />

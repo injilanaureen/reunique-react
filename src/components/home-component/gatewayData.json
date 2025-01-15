@@ -2,25 +2,29 @@
     {
       "image": "/images/ecommerce.png",
       "title": "E-Commerce",
-      "description": "With PeUnique Payment Gateway for online marketplaces, experience faster, secured & smoother transactions with an easy-to-manage dashboard.",
+      "title2": "Trusted E-commerce Payment Gateway",
+      "description": "Drive your online store’s success with a payment gateway tailored for e-commerce. Enjoy fast, reliable, and secure transactions that enhance customer trust and boost sales..",
       "altText": "E-commerce gateway"
     },
     {
       "image": "/images/edu.png",
       "title": "Education Sector",
-      "description": "Our Payment Gateway is built for large transactions in educational institutions like Schools, Colleges, and Universities, ensuring secure fee collections and statement reconciliation.",
+      "title2":"Education Payment Gateway for Institutions",
+      "description": "Streamline fee collections with a payment gateway designed for schools, colleges, and academies. Secure and hassle-free payment solutions that make managing finances easy for educational institutions.",
       "altText": "Education gateway"
     },
     {
       "image": "/images/app.png",
       "title": "App",
-      "description": "Our solution provides a smoother, more secure checkout for your app, enhancing user experience and supporting a wide range of payment methods.",
+      "title2":"Advanced API Integration Services",
+      "description": "Our seamless API integration services empower developers to connect robust payment solutions directly into websites and apps. Enable faster payments, reduced costs, and scalable operations..",
       "altText": "App gateway"
     },
     {
       "image": "/images/retail.png",
       "title": "Retail",
-      "description": "Our Payment Gateway supports various payment methods for retail businesses, ensuring smooth transactions for your customers.",
+      "title2":"Retail Payment Gateway for Offline Stores",
+      "description": "Whether it’s a grocery store or a clothing outlet, our retail payment gateway offers secure transactions with diverse payment modes to meet your business needs.",
       "altText": "Retail gateway"
     }
   ]
