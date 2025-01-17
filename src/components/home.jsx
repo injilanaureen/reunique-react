@@ -3,6 +3,8 @@ import MainSection from './home-component/homemain';
 import ProductSection from './home-component/homeproduct';
 import GatewaySection from './home-component/homegateway';
 import QuestionSection from './home-component/homequestion';
+import FeatureSection from './home-component/homeFeatures';
+import ReasonSection from './home-component/homeReason';
 
 const Home = () => {
   return (
@@ -11,6 +13,8 @@ const Home = () => {
     <ProductSection/>
     <GatewaySection/>
     <QuestionSection/>
+    <FeatureSection/>
+    <ReasonSection/>
 
     </div>
   );
